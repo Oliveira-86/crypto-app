@@ -353,6 +353,14 @@ width: 70%;
     margin: 0px 10px !important;
 }
 
+.row-header-container-exchange{
+ margin-bottom: 10px;
+ font-size: 18px;
+}
+
+.row-body-container-exchange{
+    width: 100%;
+}
 .search-crypto{
     margin: 20px auto 30px auto;
     width: 250px;

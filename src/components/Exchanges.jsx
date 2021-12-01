@@ -17,11 +17,11 @@ const Exchanges = () => {
 
   return (
     <>
-      <Row>
-        <Col span={6}>Exchanges</Col>
-        <Col span={6}>24h Trade Volume</Col>
-        <Col span={6}>Markets</Col>
-        <Col span={6}>Change</Col>
+      <Row className='row-header-container-exchange'>
+        <Col span={6}><strong>Exchanges</strong></Col>
+        <Col span={6}><strong>24h Trade Volume</strong></Col>
+        <Col span={6}><strong>Markets</strong></Col>
+        <Col span={6}><strong>Change</strong></Col>
       </Row>
       <Row>
         {exchangesList.map((exchange) => (
@@ -31,7 +31,7 @@ const Exchanges = () => {
                 key={exchange.id}
                 showArrow={false}
                 header={(
-                  <Row key={exchange.id}>
+                  <Row key={exchange.id} className='row-body-container-exchange'>
                     <Col span={6}>
                       <Text><strong>{exchange.rank}.</strong></Text>
                       <Avatar className="exchange-image" src={exchange.iconUrl} />
