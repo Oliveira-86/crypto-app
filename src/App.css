@@ -1,3 +1,4 @@
+
 :root{
     --text-primary:#000;
     --bgPrimary:#fff;
@@ -351,6 +352,7 @@ width: 70%;
 .exchange-image{
     margin: 0px 10px !important;
 }
+
 .search-crypto{
     margin: 20px auto 30px auto;
     width: 250px;
